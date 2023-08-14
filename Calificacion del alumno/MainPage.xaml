@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calificacion_del_alumno.MainPage">
+
+    <StackLayout>
+        <Label Text="Ingrese las calificaciones del alumno:" />
+        <Entry x:Name="Calificacion1Entry" Placeholder="Calificación 1" Keyboard="Numeric" />
+        <Entry x:Name="Calificacion2Entry" Placeholder="Calificación 2" Keyboard="Numeric" />
+        <Entry x:Name="Calificacion3Entry" Placeholder="Calificación 3" Keyboard="Numeric" />
+        <Entry x:Name="Calificacion4Entry" Placeholder="Calificación 4" Keyboard="Numeric" />
+        <Entry x:Name="Calificacion5Entry" Placeholder="Calificación 5" Keyboard="Numeric" />
+
+        <Button Text="Calcular Promedio" Clicked="CalcularButton_Clicked" />
+
+        <Label x:Name="ResultadoLabel" />
+    </StackLayout>
+    
+</ContentPage>
